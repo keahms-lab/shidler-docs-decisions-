@@ -1,0 +1,48 @@
+# [FX Hedging Decision]
+
+**Created by:** [Keah Smith]  
+**Updated by:** [Keah Smith]  
+**Date Created:** [04/03/2026]  
+**Date Updated:** [04/03/2026]  
+**Version:** [1.0]
+**LLM Used:** [ChatGPT]
+
+---
+
+## Executive Summary (≤150 words)
+Our firm faces foreign exchange (FX) risk from a €20 million receivable due in one year. Because revenues will be received in euros but reported in U.S. dollars, fluctuations in the EUR/USD exchange rate could materially impact realized USD proceeds. Based on current market data, the EUR/USD spot rate is approximately 1.14–1.16 USD/EUR (), while the 1-year forward rate is 1.0935. This gap highlights expectations of potential euro depreciation. If the euro weakens over the next year, our USD proceeds will decline, creating earnings volatility. Hedging is therefore worth considering to stabilize cash flows and reduce financial uncertainty.
+---
+
+## Background & Objectives
+As outlined in Scenario 4, we are exposed to euro currency risk on a €20,000,000 receivable expected in one year. The core issue is transaction exposure: the USD value of this receivable will fluctuate with exchange rate movements. Recent market data shows the EUR/USD exchange rate trading around 1.147 (), with a 52-week range between approximately 1.07 and 1.20 (), demonstrating meaningful volatility. Our objective is to evaluate whether hedging can reduce uncertainty, protect firm value, and provide more predictable cash flows while still considering potential upside.
+---
+
+## Methods
+We are evaluating three primary hedge families:
+1. Forward Contract
+Locks in the forward rate of 1.0935 USD/EUR.
+Pros: Eliminates uncertainty; simple and cost-effective.
+Cons: No participation in favorable currency movements.
+2. Money Market Hedge
+Uses borrowing/lending in USD and EUR to replicate a forward position.
+Pros: Flexible; grounded in interest rate parity.
+Cons: Requires balance sheet capacity and depends on interest rates.
+3. Options (EUR Put / USD Call)
+Provides the right to sell euros at a fixed strike price.
+Pros: Downside protection with upside potential.
+Cons: Requires upfront premium (e.g., $0.019 per EUR), reducing net proceeds.
+---
+
+## Limitations & Next Steps
+Limitations
+Interest rates for USD and EUR are not yet specified, which impacts the accuracy of money market hedge calculations.
+Future exchange rates are uncertain, meaning all projections rely on scenario assumptions rather than exact outcomes.
+The analysis assumes no transaction costs or liquidity constraints, which may differ from real-world execution.
+Next Steps
+Stage 2 – Excel Model Build: Create a dynamic Excel model comparing unhedged, forward, money market, and option strategies across multiple exchange rate scenarios.
+Stage 3 – Technical Specification: Document all formulas, inputs, and logic for reproducibility and AI reconstruction.
+Stage 4 – Final Analysis & Recommendation: Use scenario and sensitivity analysis to recommend the optimal hedging strategy aligned with the firm’s risk tolerance.
+---
+
+## References
+EUR/USD (EURUSD=x) stock historical prices & data - Yahoo Finance. Yahoo Finance. (n.d.). https://finance.yahoo.com/quote/EURUSD=X/history/ 
